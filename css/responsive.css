@@ -1,0 +1,1155 @@
+/*******************************************************
+  ***global section mobile responsive start***************
+*********************************************************/
+
+
+
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+    /* CSS */
+
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+    /* CSS */
+
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    /* CSS */
+
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+    /* CSS */
+
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    /* CSS */
+
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    /* CSS */
+
+}
+
+/*******************************************************
+  ***global section mobile responsive end***************
+*********************************************************/
+
+
+
+
+/*******************************************************
+  ***Header section mobile responsive start***************
+*********************************************************/
+
+
+
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .header-section .header-content {
+        width: 100%;
+        padding: 6px 0px 20px;
+    }
+
+    .header-section .header-content .uniqe-content h1 {
+        text-align: center;
+        font-size: 32px;
+        font-weight: 700;
+    }
+
+    .header-section .header-content .uniqe-content .btn-info {
+        padding: 10px 10px;
+        border-radius: 25px;
+        background: #f2f2f2;
+        border: 0;
+        color: #000;
+        letter-spacing: 1px;
+        font-size: 12px;
+        font-weight: 500;
+        text-transform: uppercase;
+        margin-top: -6px;
+    }
+
+
+    .header-content .uniqe-content {
+        text-align: center;
+    }
+
+    .header-section .main-menu .navbar-light .navbar-nav .active > .nav-link {
+        color: #511de5;
+        font-size: 14px;
+        font-weight: 700;
+        background: url('../img/hr.png') left bottom no-repeat;
+        background-size: auto;
+    }
+
+    .header-section .main-menu .navbar-light .navbar-nav .nav-link:hover,
+    .header-section .main-menu .navbar-light .navbar-nav .nav-link:focus {
+        color: #511de5;
+        font-size: 14px;
+        font-weight: 700;
+        background: url('../img/hr.png') left bottom no-repeat;
+        background-size: auto;
+    }
+
+
+}
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    .header-section .header-content {
+        width: 100%;
+        padding: 6px 0px 20px;
+    }
+
+    .header-section .header-content .uniqe-content h1 {
+        text-align: center;
+        font-size: 32px;
+        font-weight: 700;
+    }
+
+    .header-section .main-menu .navbar-collapse .form-inline {
+        display: block;
+    }
+
+    .header-section .main-menu .navbar-collapse .form-inline .btn-link {
+        color: #fff;
+        padding: 8px 40px;
+        margin-left: 20px;
+        border-radius: 25px;
+        font-weight: 600;
+        font-size: 14px;
+        background-image: linear-gradient(45deg, #511de5, #0c8bfb);
+        border: 0px;
+        display: block;
+        width: 135px;
+    }
+
+    .header-section .main-menu .navbar-collapse .form-inline .btn-link:hover {
+        background-image: linear-gradient(45deg, #0c8bfb, #511de5);
+        color: #fff;
+    }
+
+    .header-section .header-content .uniqe-content .btn-info {
+        padding: 10px 10px;
+        border-radius: 25px;
+        background: #f2f2f2;
+        border: 0;
+        color: #000;
+        letter-spacing: 1px;
+        font-size: 12px;
+        font-weight: 500;
+        text-transform: uppercase;
+        margin-top: -6px;
+    }
+
+    .header-content .uniqe-content {
+        text-align: center;
+    }
+
+    .header-section .main-menu .navbar-light .navbar-nav .active > .nav-link {
+        color: #511de5;
+        font-size: 14px;
+        font-weight: 700;
+        background: url('../img/hr.png') left bottom no-repeat;
+        background-size: auto;
+    }
+
+    .header-section .main-menu .navbar-light .navbar-nav .nav-link:hover,
+    .header-section .main-menu .navbar-light .navbar-nav .nav-link:focus {
+        color: #511de5;
+        font-size: 14px;
+        font-weight: 700;
+        background: url('../img/hr.png') left bottom no-repeat;
+        background-size: auto;
+    }
+
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .header-section .main-menu .navbar-collapse .form-inline {
+        display: block;
+    }
+
+    .header-section .main-menu .navbar-collapse .form-inline .btn-link {
+        color: #fff;
+        padding: 8px 40px;
+        margin-left: 20px;
+        border-radius: 25px;
+        font-weight: 600;
+        font-size: 14px;
+        background-image: linear-gradient(45deg, #511de5, #0c8bfb);
+        border: 0px;
+        display: block;
+        width: 135px;
+    }
+
+    .header-section .main-menu .navbar-collapse .form-inline .btn-link:hover {
+        background-image: linear-gradient(45deg, #0c8bfb, #511de5);
+        color: #fff;
+    }
+
+    .header-content .uniqe-content {
+        text-align: center;
+    }
+
+    .header-section .header-content {
+        width: 100%;
+        padding: 6px 0px 20px;
+    }
+
+    .header-section .header-content .uniqe-content h1 {
+        text-align: center;
+        font-size: 15px;
+        font-weight: 700;
+    }
+
+    .header-section .header-content .uniqe-content .btn-info {
+        padding: 5px 5px;
+        border-radius: 25px;
+        background: #f2f2f2;
+        border: 0;
+        color: #000;
+        letter-spacing: 0px;
+        font-size: 11px;
+        font-weight: 500;
+        text-transform: uppercase;
+        margin-top: -6px;
+        margin-bottom: 25px;
+    }
+
+    .header-section .main-menu .navbar-light .navbar-nav .active > .nav-link {
+        color: #511de5;
+        font-size: 14px;
+        font-weight: 700;
+        background: url('../img/hr.png') left bottom no-repeat;
+        background-size: auto;
+    }
+
+    .header-section .main-menu .navbar-light .navbar-nav .nav-link:hover,
+    .header-section .main-menu .navbar-light .navbar-nav .nav-link:focus {
+        color: #511de5;
+        font-size: 14px;
+        font-weight: 700;
+        background: url('../img/hr.png') left bottom no-repeat;
+        background-size: auto;
+    }
+
+    .header-section .main-menu .navbar .navbar-brand img {
+        width: 126px;
+        margin-left: -20px;
+        margin-top: 10px;
+    }
+    .inner-faq .title h1 {
+    font-size: 25px;
+    font-weight: 900;
+    line-height: 30px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+}
+
+/*low resouliton start*/
+@media (min-width: 0px) and (max-width: 320px) {
+
+    .header-content .uniqe-content {
+        text-align: center;
+    }
+
+    .header-section .main-menu .navbar-collapse .form-inline {
+        display: block;
+    }
+
+    .header-section .main-menu .navbar-collapse .form-inline .btn-link {
+        color: #fff;
+        padding: 8px 40px;
+        margin-left: 20px;
+        border-radius: 25px;
+        font-weight: 600;
+        font-size: 14px;
+        background-image: linear-gradient(45deg, #511de5, #0c8bfb);
+        border: 0px;
+        display: block;
+        width: 135px;
+    }
+
+    .header-section .main-menu .navbar-collapse .form-inline .btn-link:hover {
+        background-image: linear-gradient(45deg, #0c8bfb, #511de5);
+        color: #fff;
+    }
+
+    .header-section .header-content {
+        width: 100%;
+        padding: 6px 0px 20px;
+    }
+
+    .header-section .header-content .uniqe-content h1 {
+        text-align: center;
+        font-size: 15px;
+        font-weight: 700;
+    }
+
+    .header-section .header-content .uniqe-content .btn-info {
+        padding: 5px 5px;
+        border-radius: 25px;
+        background: #f2f2f2;
+        border: 0;
+        color: #000;
+        letter-spacing: 0px;
+        font-size: 11px;
+        font-weight: 500;
+        text-transform: uppercase;
+        margin-top: -6px;
+        margin-bottom: 25px;
+    }
+
+    .header-section .main-menu .navbar-light .navbar-nav .active > .nav-link {
+        color: #511de5;
+        font-size: 14px;
+        font-weight: 700;
+        background: url('../img/hr.png') left bottom no-repeat;
+        background-size: auto;
+    }
+
+    .header-section .main-menu .navbar-light .navbar-nav .nav-link:hover,
+    .header-section .main-menu .navbar-light .navbar-nav .nav-link:focus {
+        color: #511de5;
+        font-size: 14px;
+        font-weight: 700;
+        background: url('../img/hr.png') left bottom no-repeat;
+        background-size: auto;
+    }
+
+}
+
+/*******************************************************
+  ***Header section mobile responsive end***************
+*********************************************************/
+
+
+
+/*******************************************************
+  ***highlight section mobile responsive start***************
+*********************************************************/
+
+
+
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1196px) {
+    .highlight {
+        width: 100%;
+        padding: 12px 0px;
+    }
+
+    .highlight .inner-highlight h3 {
+        text-align: right;
+        margin-top: 39px;
+        font-weight: 701;
+        color: #fff;
+        font-size: 32px;
+        margin-left: -100px;
+    }
+}
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .highlight {
+        width: 100%;
+        padding: 8px 0px;
+    }
+
+    .highlight .inner-highlight h3 {
+        text-align: right;
+        margin-top: 29px;
+        font-weight: 701;
+        color: #fff;
+        font-size: 22px;
+        margin-left: -100px;
+    }
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .highlight {
+        width: 100%;
+        padding: 4px 0px;
+    }
+
+    .highlight .inner-highlight h3 {
+        text-align: right;
+        margin-top: 19px;
+        font-weight: 701;
+        color: #fff;
+        font-size: 12px;
+        margin-left: -100px;
+    }
+
+
+}
+
+/*low resolution start*/
+
+@media (min-width: 0px) and (max-width: 320px) {
+
+    .highlight {
+        width: 100%;
+        padding: 4px 0px;
+    }
+
+    .highlight .inner-highlight h3 {
+        text-align: right;
+        margin-top: 19px;
+        font-weight: 701;
+        color: #fff;
+        font-size: 12px;
+        margin-left: -100px;
+    }
+
+
+}
+
+/*******************************************************
+  ***hightlight section mobile responsive end***************
+*********************************************************/
+
+
+
+
+/*******************************************************
+  ***feature section mobile responsive start***************
+*********************************************************/
+
+
+
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1196px) {
+    .feature-section .inner-feature {
+        width: 100%;
+        padding: 47px 45px 78px;
+        background: url('../img/fb.png') bottom right no-repeat;
+        background-size: auto;
+        background-size: auto;
+        background-size: contain;
+        box-shadow: 1px 1px 18px 7px #ebe5e5;
+    }
+
+    .inner-client-logo img {
+        margin-left: 106px;
+        width: 70%;
+    }
+}
+
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .feature-section {
+        width: 100%;
+        padding: 30px 0px;
+
+    }
+
+    .feature-section .inner-feature {
+        width: 100%;
+        padding: 54px 59px 26px;
+        background: url('../img/fb.png') bottom right no-repeat;
+        background-size: auto;
+        background-size: auto;
+        background-size: auto;
+        background-size: contain;
+        box-shadow: 1px 1px 18px 7px #ebe5e5;
+    }
+
+    .feature-section .inner-feature h1 {
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 29px;
+        margin-bottom: 11px;
+    }
+
+    .feature-section .inner-feature .percentage .one {
+        margin-right: 8px;
+        font-size: 31px;
+        font-weight: 900;
+        background: -webkit-linear-gradient(4deg, #511de5, #0c8bfb);
+        background-clip: border-box;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .inner-client-logo img {
+        margin-left: 81px;
+        width: 70%;
+    }
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .feature-section {
+        width: 100%;
+        padding: 30px 0px;
+
+    }
+
+    .feature-section .inner-feature {
+        width: 100%;
+        padding: 48px 20px 1px;
+        background: url('../img/fb.png') bottom right no-repeat;
+        background-size: auto;
+        background-size: auto;
+        background-size: contain;
+        box-shadow: 1px 1px 18px 7px #ebe5e5;
+    }
+
+    .feature-section .inner-feature h1 {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 25px;
+        margin-bottom: 4px;
+    }
+
+    .feature-section .inner-feature .percentage .one {
+        margin-right: 8px;
+        font-size: 31px;
+        font-weight: 900;
+        background: -webkit-linear-gradient(4deg, #511de5, #0c8bfb);
+        background-clip: border-box;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .client-logo {
+        width: 100%;
+        padding-bottom: 5px;
+    }
+
+    .inner-client-logo img {
+        margin-left: 16px;
+        width: 90%;
+    }
+
+
+}
+
+/*low resolution start*/
+
+@media (min-width: 0px) and (max-width: 320px) {
+    .feature-section {
+        width: 100%;
+        padding: 30px 0px;
+
+    }
+
+    .feature-section .inner-feature {
+        width: 100%;
+        padding: 48px 20px 1px;
+        background: url('../img/fb.png') bottom right no-repeat;
+        background-size: auto;
+        background-size: auto;
+        background-size: contain;
+        box-shadow: 1px 1px 18px 7px #ebe5e5;
+    }
+
+    .feature-section .inner-feature h1 {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 25px;
+        margin-bottom: 4px;
+    }
+
+    .feature-section .inner-feature .percentage .one {
+        margin-right: 8px;
+        font-size: 31px;
+        font-weight: 900;
+        background: -webkit-linear-gradient(4deg, #511de5, #0c8bfb);
+        background-clip: border-box;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+
+/*******************************************************
+  ***feature section mobile responsive end***************
+*********************************************************/
+
+
+/*******************************************************
+  ***Quote section mobile responsive start***************
+*********************************************************/
+
+
+
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+    /* CSS */
+
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+    /* CSS */
+
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .quote-section .apple-box {
+        width: 90%;
+        padding: 0px;
+        padding-bottom: 0px;
+        padding-bottom: 265px;
+        background: url('..//img/apple.png') center top no-repeat;
+        background-size: auto;
+        background-size: contain;
+        margin-top: 150px;
+        position: relative;
+    }
+
+    .quote-section .apple-box .inner-apple {
+        width: 100%;
+        position: absolute;
+        left: 62px;
+        top: 59px;
+    }
+
+    .quote-section .apple-box .inner-apple .first-apple {
+        font-size: 10px;
+        font-weight: 400;
+        color: #fff;
+        line-height: 19px;
+    }
+
+    .quote-section .apple-box .inner-apple .two-apple {
+        font-size: 9px;
+        font-weight: 700;
+        color: #fff;
+    }
+
+    .quote-section .quote-right {
+        width: 100%;
+        padding: 179px 0px;
+    }
+
+    .quote-section .quote-right h1 {
+        font-size: 29px;
+        font-weight: 900;
+        line-height: 39px;
+        margin-bottom: 6px;
+    }
+
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+    /* CSS */
+
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    .quote-section .apple-box .inner-apple {
+        width: 100%;
+        position: absolute;
+        left: 189px;
+        top: 100px;
+    }
+
+    .quote-section .quote-right {
+        width: 100%;
+        padding: 50px 0px;
+    }
+
+    .quote-section .quote-right h1 {
+        font-size: 30px;
+        font-weight: 900;
+        line-height: 36px;
+        margin-bottom: -5px;
+        text-align: center;
+    }
+
+    .quote-section .quote-right .btn-info {
+        padding: 8px 32px;
+        border-radius: 25px;
+        background: #fff;
+        border: 0;
+        color: #000;
+        letter-spacing: 1px;
+        font-size: 11px;
+        font-weight: 500;
+        text-transform: uppercase;
+        margin-top: 17px;
+        transition: 0.2s;
+        margin-left: 64px;
+    }
+
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .quote-section {
+        width: 100%;
+        padding: 0px 0px 140px;
+        background: url('../img/quote-banner.png') center top no-repeat;
+        background-size: auto;
+        background-size: auto;
+        background-size: cover;
+    }
+
+    .quote-section .apple-box .inner-apple {
+        width: 100%;
+        position: absolute;
+        left: 113px;
+        top: 100px;
+    }
+
+    .quote-section .quote-right {
+        width: 100%;
+        padding: 40px 0px;
+    }
+
+    .quote-section .quote-right h1 {
+        font-size: 25px;
+        font-weight: 900;
+        line-height: 32px;
+        margin-bottom: -4px;
+    }
+
+    .quote-section .quote-right {
+        width: 100%;
+        padding: 40px 25px;
+    }
+
+    .quote-section .quote-right .btn-info {
+        padding: 5px 10px;
+        border-radius: 25px;
+        background: #ffc8c8;
+        border: 0;
+        color: #000;
+        letter-spacing: 1px;
+        font-size: 7px;
+        font-weight: 500;
+        text-transform: uppercase;
+        margin-top: 10px;
+        transition: 0.2s;
+    }
+}
+
+/*******************************************************
+  ***Quote section mobile responsive end***************
+*********************************************************/
+
+/*******************************************************
+  ***efficiency section mobile responsive start***************
+*********************************************************/
+
+
+
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+    /* CSS */
+
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+    /* CSS */
+
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .efficiency-section .right-ef {
+        width: 100%;
+        height: 50%;
+        background: url('../img/ebanner.png') center top no-repeat;
+        background-size: auto;
+        background-size: auto;
+        background-size: cover;
+        margin-top: 199px;
+        margin-left: -9px;
+    }
+
+    .efficiency-section .left-ef h1 {
+        font-size: 35px;
+        font-weight: 900;
+        line-height: 45px;
+        margin-bottom: 30px;
+    }
+
+    .efficiency-section .left-ef .content-para {
+        font-size: 9px;
+        font-weight: 600;
+        line-height: 19px;
+        margin-bottom: 33px;
+    }
+
+    .efficiency-section .left-ef .img-content1 {
+        font-size: 12px;
+        font-weight: 900;
+    }
+
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+    /* CSS */
+
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    .efficiency-section {
+        width: 100%;
+        padding: 0px 0px 50px;
+    }
+
+
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .efficiency-section {
+        width: 100%;
+        padding: 0px 0px 28px;
+    }
+
+    .efficiency-section .left-ef h1 {
+        font-size: 24px;
+        font-weight: 900;
+        line-height: 30px;
+        margin-bottom: 14px;
+    }
+
+    .efficiency-section .left-ef .content-para {
+        font-size: 9px;
+        font-weight: 600;
+        line-height: 20px;
+        margin-bottom: 33px;
+    }
+
+    .efficiency-section .left-ef .img-content1 {
+        font-size: 11px;
+        font-weight: 900;
+    }
+
+    .efficiency-section .left-ef .img-content2 {
+        font-size: 11px;
+        font-weight: 900;
+    }
+
+}
+
+/*******************************************************
+  ***efficiency section mobile responsive end***************
+*********************************************************/
+
+
+
+/*******************************************************
+  ***portfoli section mobile responsive start***************
+*********************************************************/
+
+
+
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+    /* CSS */
+
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+    /* CSS */
+
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    /* CSS */
+
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+    /* CSS */
+
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    .portfolio .title-portfolio h1 {
+        font-size: 25px;
+        font-weight: 900;
+        line-height: 35px;
+        margin-bottom: 20px;
+    }
+
+    .portfolio .title-portfolio p {
+        font-size: 11px;
+        font-weight: 600;
+        line-height: 20px;
+        margin-bottom: 33px;
+    }
+
+    .portfolio .img-box p {
+        font-size: 9px;
+        font-weight: 700;
+        line-height: 20px;
+    }
+
+    .portfolio .img-box img {
+        width: 60px;
+        height: 60px;
+        margin-bottom: 10px;
+    }
+
+    .portfolio .img-box h1 {
+        font-size: 12px;
+        font-weight: 900;
+    }
+
+    .portfolio .col-md-4 {
+        position: relative;
+        width: 33%;
+        padding-right: 8px;
+        padding-left: 0px;
+    }
+
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .portfolio {
+        width: 100%;
+        padding: 39px 0px;
+        text-align: center;
+        background: #fcfcfc;
+    }
+
+    .portfolio .title-portfolio h1 {
+        font-size: 25px;
+        font-weight: 900;
+        line-height: 35px;
+        margin-bottom: 25px;
+    }
+
+    .portfolio .title-portfolio p {
+        font-size: 9px;
+        font-weight: 600;
+        line-height: 19px;
+        margin-bottom: 0px;
+    }
+
+    .portfolio .img-box img {
+        width: 50px;
+        height: 50px;
+        margin-bottom: 10px;
+    }
+
+    .portfolio .img-box h1 {
+        font-size: 14px;
+        font-weight: 900;
+    }
+
+    .portfolio .img-box p {
+        font-size: 10px;
+        font-weight: 700;
+        line-height: 20px;
+    }
+        .portfolio .col-md-4 {
+        position: relative;
+        width: 33%;
+        padding-right: 8px;
+        padding-left: 0px;
+    }
+    .portfolio .img-box p {
+    font-size: 7px;
+    font-weight: 700;
+    line-height: 14px;
+}
+
+}
+
+/*******************************************************
+  ***portfolio section mobile responsive end***************
+*********************************************************/
